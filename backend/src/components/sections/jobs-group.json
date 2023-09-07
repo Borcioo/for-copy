@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_jobs_groups",
+  "info": {
+    "displayName": "Career",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "jobs": {
+      "displayName": "Jobs",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.single-job-element"
+    },
+    "applyTitle": {
+      "type": "string"
+    },
+    "applyText": {
+      "type": "string"
+    }
+  }
+}

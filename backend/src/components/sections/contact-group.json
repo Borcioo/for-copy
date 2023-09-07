@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections_contact_groups",
+  "info": {
+    "displayName": "Contact group",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "contacts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.contact-row"
+    },
+    "places": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.place-row"
+    }
+  }
+}

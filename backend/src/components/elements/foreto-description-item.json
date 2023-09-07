@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_elements_foreto_description_items",
+  "info": {
+    "displayName": "Foreto description item"
+  },
+  "options": {},
+  "attributes": {
+    "begin": {
+      "type": "string"
+    },
+    "end": {
+      "type": "text"
+    }
+  }
+}

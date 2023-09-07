@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sections_red_bars",
+  "info": {
+    "displayName": "Red bar"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.home-button"
+    }
+  }
+}

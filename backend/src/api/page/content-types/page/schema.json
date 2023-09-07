@@ -1,0 +1,123 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "name": "page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "shortName": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "contentSections": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.hero",
+        "sections.bottom-actions",
+        "sections.feature-columns-group",
+        "sections.feature-rows-group",
+        "sections.testimonials-group",
+        "sections.large-video",
+        "sections.rich-text",
+        "sections.pricing",
+        "sections.lead-form",
+        "sections.features",
+        "sections.heading",
+        "sections.contact-group",
+        "sections.header",
+        "sections.contact-form",
+        "sections.value-group",
+        "sections.career-passion",
+        "sections.character-group",
+        "sections.jobs-group",
+        "sections.home-header",
+        "sections.home-client",
+        "sections.home-services",
+        "sections.home-portfolio",
+        "sections.home-references",
+        "sections.red-bar",
+        "sections.home-about-us",
+        "sections.home-works-with",
+        "sections.home-solutions",
+        "sections.home-foreto-group",
+        "sections.home-blog",
+        "sections.home-workflow",
+        "sections.timeline",
+        "sections.foreto-description",
+        "sections.map",
+        "sections.code-cast",
+        "sections.case-search",
+        "sections.case-data",
+        "sections.service-tiles-section",
+        "sections.tech-stack",
+        "sections.blog-group"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "regex": "^$|^[a-zA-Z/-]+$"
+    },
+    "heading": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
+    },
+    "localeSlug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

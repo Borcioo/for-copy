@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_elements_service_chapter_lists",
+  "info": {
+    "displayName": "Service chapter list"
+  },
+  "options": {},
+  "attributes": {
+    "chapters": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.home-workflow-tile"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

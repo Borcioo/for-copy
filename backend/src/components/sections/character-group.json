@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_character_groups",
+  "info": {
+    "displayName": "Character group"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "characters": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.character-row"
+    }
+  }
+}

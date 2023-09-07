@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_elements_single_job_elements",
+  "info": {
+    "displayName": "Single job element"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "additionalText": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "footerNotes": {
+      "type": "text"
+    },
+    "requirements": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.list"
+    }
+  }
+}

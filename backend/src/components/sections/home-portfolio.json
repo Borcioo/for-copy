@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_home_portfolios",
+  "info": {
+    "displayName": "Home portfolio"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.home-button"
+    },
+    "tiles": {
+      "displayName": "Portfolio tile",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.portfolio-tile"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_contact_data_rows",
+  "info": {
+    "displayName": "contactDataRow",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "place": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "phoneNumberSecondary": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

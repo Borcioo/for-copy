@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_elements_home_workflow_tiles",
+  "info": {
+    "displayName": "Home workflow tile"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_home_workflows",
+  "info": {
+    "displayName": "Home workflow",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.home-button"
+    },
+    "workflowList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.home-workflow-tile"
+    }
+  }
+}

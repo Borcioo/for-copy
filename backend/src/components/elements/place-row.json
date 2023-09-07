@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_elements_place_rows",
+  "info": {
+    "displayName": "Place row"
+  },
+  "options": {},
+  "attributes": {
+    "placeName": {
+      "type": "string"
+    },
+    "placeAddress": {
+      "type": "string"
+    },
+    "openDays": {
+      "type": "string"
+    },
+    "openHours": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phoneNumber": {
+      "type": "string"
+    }
+  }
+}

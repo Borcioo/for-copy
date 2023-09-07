@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_blog_groups",
+  "info": {
+    "displayName": "Blog group"
+  },
+  "options": {},
+  "attributes": {
+    "blogs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.blog-tile"
+    }
+  }
+}

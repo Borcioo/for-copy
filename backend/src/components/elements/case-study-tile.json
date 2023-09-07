@@ -1,0 +1,74 @@
+{
+  "collectionName": "components_elements_case_study_tiles",
+  "info": {
+    "displayName": "Case study tile",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "type": {
+      "type": "string"
+    },
+    "customId": {
+      "type": "integer"
+    },
+    "company": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.home-button"
+    },
+    "caseTitle": {
+      "type": "string"
+    },
+    "projectDetails": {
+      "displayName": "Project detail",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.project-detail"
+    },
+    "descriptionList": {
+      "displayName": "Description",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.description"
+    },
+    "chapters": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.home-workflow-tile"
+    },
+    "descriptionListSecond": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.description"
+    },
+    "casePerson": {
+      "displayName": "Case person",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.case-person"
+    },
+    "casePoints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.case-item"
+    }
+  }
+}

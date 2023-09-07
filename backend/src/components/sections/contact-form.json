@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_sections_contact_forms",
+  "info": {
+    "displayName": "Contact form"
+  },
+  "options": {},
+  "attributes": {
+    "nameLabel": {
+      "type": "string"
+    },
+    "emailLabel": {
+      "type": "string"
+    },
+    "phoneLabel": {
+      "type": "string"
+    },
+    "messageLabel": {
+      "type": "string"
+    },
+    "fileLabel": {
+      "type": "string"
+    },
+    "termsText": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_elements_single_services",
+  "info": {
+    "displayName": "Single service"
+  },
+  "options": {},
+  "attributes": {
+    "serviceTitle": {
+      "type": "string"
+    },
+    "serviceImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "list": {
+      "displayName": "Service list item",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.service-list-item"
+    }
+  }
+}

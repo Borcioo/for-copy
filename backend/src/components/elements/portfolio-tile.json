@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_elements_portfolio_tiles",
+  "info": {
+    "displayName": "Portfolio tile",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "values": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

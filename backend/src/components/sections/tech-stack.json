@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_tech_stacks",
+  "info": {
+    "displayName": "Tech stack"
+  },
+  "options": {},
+  "attributes": {
+    "technologies": {
+      "displayName": "Service technologies",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.service-technologies"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

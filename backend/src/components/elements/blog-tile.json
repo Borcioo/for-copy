@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_elements_blog_tiles",
+  "info": {
+    "displayName": "Blog tile"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.home-button"
+    },
+    "date": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

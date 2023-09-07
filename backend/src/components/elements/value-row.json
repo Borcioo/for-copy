@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_elements_value_rows",
+  "info": {
+    "displayName": "Value row"
+  },
+  "options": {},
+  "attributes": {
+    "contentText": {
+      "type": "string"
+    },
+    "contentImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

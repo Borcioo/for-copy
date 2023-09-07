@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_elements_blog_points",
+  "info": {
+    "displayName": "Blog point",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "descriptionList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.description"
+    },
+    "dottedList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.description"
+    },
+    "descriptionListSecond": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.description"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "row": {
+      "type": "boolean"
+    }
+  }
+}

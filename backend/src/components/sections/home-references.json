@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_home_references",
+  "info": {
+    "displayName": "Home references"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "references": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.reference"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.home-button"
+    }
+  }
+}

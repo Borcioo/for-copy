@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_elements_home_buttons",
+  "info": {
+    "displayName": "Home button",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "hexColor": {
+      "type": "string",
+      "required": true
+    },
+    "textHexColor": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

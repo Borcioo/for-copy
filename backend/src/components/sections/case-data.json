@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_case_data",
+  "info": {
+    "displayName": "Case data"
+  },
+  "options": {},
+  "attributes": {
+    "points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.case-study-tile"
+    }
+  }
+}

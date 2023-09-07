@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_articles",
+  "info": {
+    "singularName": "blog-article",
+    "pluralName": "blog-articles",
+    "displayName": "Blog article",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "blogDetails": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.project-detail"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "descriptionList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.description"
+    },
+    "blogPoints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.blog-point"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.home-button"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.red-bar"
+    }
+  }
+}

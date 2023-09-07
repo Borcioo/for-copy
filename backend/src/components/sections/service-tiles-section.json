@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_service_tiles_sections",
+  "info": {
+    "displayName": "Service tiles section"
+  },
+  "options": {},
+  "attributes": {
+    "serviceTiles": {
+      "displayName": "Service tile",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.service-tile"
+    }
+  }
+}

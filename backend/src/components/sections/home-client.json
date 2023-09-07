@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_home_clients",
+  "info": {
+    "displayName": "Home client",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "clients": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.single-client"
+    },
+    "titleRed": {
+      "type": "string"
+    }
+  }
+}

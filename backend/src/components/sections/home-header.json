@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_sections_home_headers",
+  "info": {
+    "displayName": "Home header",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleBlack": {
+      "type": "string"
+    },
+    "titleRed": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "homeButtons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.home-button"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

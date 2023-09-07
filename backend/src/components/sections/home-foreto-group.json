@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_home_foreto_groups",
+  "info": {
+    "displayName": "Home foreto group",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tiles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.portfolio-tile"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

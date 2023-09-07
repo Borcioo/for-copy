@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_home_about_uses",
+  "info": {
+    "displayName": "Home about us",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "aboutValues": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.feature-column"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.home-button"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_career_passions",
+  "info": {
+    "displayName": "Career passion",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "textBegin": {
+      "type": "text"
+    },
+    "textCenter": {
+      "type": "text"
+    },
+    "textEnd": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

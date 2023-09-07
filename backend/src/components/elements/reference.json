@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_elements_references",
+  "info": {
+    "displayName": "Reference"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "jobPosition": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

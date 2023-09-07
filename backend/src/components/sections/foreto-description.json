@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_foreto_descriptions",
+  "info": {
+    "displayName": "Foreto description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "foretoDescriptionItem": {
+      "displayName": "Foreto description item",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.foreto-description-item"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

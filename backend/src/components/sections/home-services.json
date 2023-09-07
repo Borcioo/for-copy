@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_home_services",
+  "info": {
+    "displayName": "Home services"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "services": {
+      "displayName": "Single service",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.single-service"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.home-button"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_elements_jobs",
+  "info": {
+    "displayName": "Job",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tileTitle": {
+      "type": "string"
+    },
+    "tileSubTitle": {
+      "type": "string"
+    },
+    "job_positions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::job.job"
+    }
+  }
+}

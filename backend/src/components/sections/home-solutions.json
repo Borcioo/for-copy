@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_home_solutions",
+  "info": {
+    "displayName": "Home solutions"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "tiles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.portfolio-tile"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.home-button"
+    }
+  }
+}

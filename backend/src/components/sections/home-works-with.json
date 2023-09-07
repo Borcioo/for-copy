@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_home_works_withs",
+  "info": {
+    "displayName": "Home works with",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.list-item"
+    },
+    "companyList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.list"
+    }
+  }
+}

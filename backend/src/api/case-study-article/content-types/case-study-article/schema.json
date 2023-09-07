@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "case_study_articles",
+  "info": {
+    "singularName": "case-study-article",
+    "pluralName": "case-study-articles",
+    "displayName": "Case study article",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "projectDetails": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.project-detail"
+    },
+    "descriptionList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.description"
+    },
+    "descriptionListSecond": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.description"
+    },
+    "chapters": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.home-workflow-tile"
+    },
+    "casePerson": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.case-person"
+    },
+    "casePoints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.case-item"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.red-bar"
+    }
+  }
+}

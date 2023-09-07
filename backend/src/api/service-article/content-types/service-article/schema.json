@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service_articles",
+  "info": {
+    "singularName": "service-article",
+    "pluralName": "service-articles",
+    "displayName": "Service article",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "descriptionList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.description"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "helpPoints": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.list"
+    },
+    "chapters": {
+      "displayName": "Service chapter list",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.service-chapter-list"
+    },
+    "workflow": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.home-workflow"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.red-bar"
+    }
+  }
+}

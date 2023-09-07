@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_single_clients",
+  "info": {
+    "displayName": "Single client"
+  },
+  "options": {},
+  "attributes": {
+    "clientImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
